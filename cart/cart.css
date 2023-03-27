@@ -1,0 +1,139 @@
+.header {
+  background: #003F62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30.5px 0px;
+}
+.header .header__inner {
+  margin: 0px 40px;
+  width: 100%;
+  max-width: 1350px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+@media (max-width: 808px) {
+  .header .header__inner {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0px 10px;
+  }
+}
+.header .header__inner div {
+  display: flex;
+  align-items: center;
+}
+.header .header__inner div img {
+  width: 100%;
+  max-width: 140px;
+  margin-right: 100px;
+}
+@media (max-width: 808px) {
+  .header .header__inner div img {
+    margin-right: 30px;
+    max-width: 100px;
+  }
+}
+.header .header__inner div input {
+  height: 56px;
+  padding-left: 35px;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  max-width: 338px;
+}
+@media (max-width: 808px) {
+  .header .header__inner div input {
+    padding-left: 10px;
+    font-size: 10px;
+  }
+}
+.header .header__inner div button {
+  width: 132px;
+  height: 56px;
+  background: #EDA415;
+  border: none;
+  border-radius: 20px;
+  margin-left: -40px;
+  color: white;
+}
+@media (max-width: 808px) {
+  .header .header__inner div button {
+    font-size: 10px;
+  }
+}
+.header .header__inner .nav {
+  display: flex;
+  gap: 50px;
+}
+
+.main-section .main-section_left {
+  max-width: 850px;
+  width: 100%;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .main-section_left .table_tr-left {
+  background-color: #e2f4ff;
+  font-size: 20.68px;
+  padding: 15px;
+}
+.main-section .main-section_left .table_td1-left {
+  max-width: 850px;
+  width: 100%;
+}
+.main-section .main-section_left .table_td1-left .table_td1-product {
+  display: flex;
+  max-width: 300px;
+  font-size: 20.68px;
+}
+.main-section .main-section_left .table_td1-left .table_td1-product .table_td1-column {
+  padding: 20px;
+  gap: 20px;
+}
+.main-section .main-section_left .table_td1-left .table_td1-price {
+  font-size: 22.68px;
+}
+.main-section .main-section_left .table_buttons1 {
+  padding: 19.5px 30px;
+  background-color: #eda415;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 20.68px;
+}
+.main-section .main-section_left .table_buttons2 {
+  padding: 15px 30px;
+  color: #797979;
+  border-radius: 30px;
+  font-size: 20.68px;
+  width: 200px;
+  border: solid 1px #797979;
+}
+.main-section .main-section_left .table_buttons3 {
+  padding: 15px 30px;
+  color: #c33131;
+  border-radius: 30px;
+  font-size: 20.68px;
+  width: 200px;
+  border: solid 1px #c33131;
+}
+
+.main-section_right {
+  background-color: #cc7e7e;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-section_right .table-right_tr {
+  background-color: aqua;
+}
+.main-section_right .table-right_td1 {
+  display: flex;
+  gap: 250px;
+}/*# sourceMappingURL=cart.css.map */
