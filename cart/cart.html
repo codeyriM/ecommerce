@@ -7,104 +7,122 @@
     <title>Document</title>
     <link rel="stylesheet" href="cart.css" />
     <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   </head>
   <body>
     <header class="header">
       <div class="header__inner">
-          <div>
-              <img src="./image/header/logo.png" alt="">
-              <input placeholder="Serach any things" type="text"><button>Search</button>
-          </div>
-     
-          <nav class="nav">
-              <div>Sign in</div>
-              <div>Sign in</div>
-              <div>Cart</div>
-  
-          </nav>
+        <div>
+          <img src="./image/header/logo.png" alt="" />
+          <input placeholder="Serach any things" type="text" /><button>
+            Search
+          </button>
+        </div>
+
+        <nav class="nav">
+          <div>Sign in</div>
+          <div>Sign in</div>
+          <div>Cart</div>
+        </nav>
       </div>
-  </header>
+    </header>
     <div class="main-section">
       <div class="main-section__inner">
         <div class="main-section_left">
-        <table class="table-left">
-          <tr class="table_tr-left">
-            <th style="padding-right: 251px;">Product</th>
-            <th style="padding-right: 107px" >Price</th>
-            <th style="padding-right: 82px">Quantity</th>
-            <th style="padding-right: 87px">Subtotal</th>
-          </tr>
-          <tr class="table_td1-left">
-            <td class="table_td1-product">
-              <img src="../image/cart/6456332_sd 1 (1).png" alt="">
-              <div class="table_td1-column">
-                <div><strong>Play game</strong></div>
-               <div>Color: Green</div>
-               <div>Size: 30</div>
-              </div>
+          <table class="table-left">
+            <tr class="table_tr-left">
+              <th style="padding-right: 251px">Product</th>
+              <th style="padding-right: 107px">Price</th>
+              <th style="padding-right: 82px">Quantity</th>
+              <th style="padding-right: 87px">Subtotal</th>
+            </tr>
+            <tr class="table_td1-left">
+              <td class="table_td1-product">
+                <img src="../image/cart/6456332_sd 1 (1).png" alt="" />
+                <div class="table_td1-column">
+                  <div><strong>Play game</strong></div>
+                  <div>Color: Green</div>
+                  <div>Size: 30</div>
+                </div>
+              </td>
+              <td class="table_td1-price">$ 11,70</td>
+              <td class="table_td1-quantity">
+                <button>-</button>
+                <input type="button" value="1" />
+                <button>+</button>
+              </td>
+              <td class="table_td1-price">$ 11,70</td>
+              <td><img src="../image/cart/close-circle.svg" alt="" /></td>
+            </tr>
+            <hr />
+            <tr class="table_td1-left">
+              <td class="table_td1-product">
+                <img
+                  style="width: 132px; height: 88px"
+                  src="../image/cart/Frame 142.png"
+                  alt=""
+                />
+                <div class="table_td1-column">
+                  <div><strong>Play game</strong></div>
+                  <div>Color: Black</div>
+                  <div>Size: 30</div>
+                </div>
+              </td>
+              <td class="table_td1-price">$ 11,70</td>
+              <td class="table_td1-quantity">
+                <button>-</button>
+                <input type="button" value="1" />
+                <button>+</button>
+              </td>
+              <td class="table_td1-price">$ 11,70</td>
+              <td><img src="../image/cart/close-circle.svg" alt="" /></td>
+            </tr>
+            <tr>
+              <td>
+                <button class="table_buttons1">Continue shopping</button>
+              </td>
+              <td>
+                <button class="table_buttons2">Update cart</button>
+              </td>
+              <td>
+                <button class="table_buttons3">Clear cart</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="main-section_right">
+          <table class="table-right">
+            <tr class="table-right_tr">
+              <th>Cart total</th>
+            </tr>
+            <tr class="table-right_td1">
+              <td>Subtotal</td>
+              <td>$ 23,20</td>
+            </tr>
+            <tr>
+              <td class="table-right_td2">
+                <div>Enter coupon code</div>
+                <b>Apply</b>
+              </td>
+            </tr>
+            
+            <tr>
+              <td style="top: 20px;" class="table-right_td2">
+                <div>County</div>
+                <b><img src="../image/cart/Vector.png" alt=""></b>
+              </td>
+            </tr>
+            <tr style="font-size: 16.68px;" class="table-right_td1">
+              <td>Total amount</td>
+              <td>$ 23,20</td>
+            </tr>
+            <td class="table-right_td3">
+              <button>Proceed to checkout</button>
             </td>
-            <td class="table_td1-price">$ 11,70</td>
-            <td class="table_td1-quantity">
-              <button>-</button>
-              <input type="button" value="1">
-              <button>+</button>
-            </td>
-            <td class="table_td1-price">$ 11,70</td>
-            <td><img src="../image/cart/close-circle.svg" alt=""></td>
-          </tr>
-          <hr>
-          <tr class="table_td1-left">
-            <td class="table_td1-product">
-              <img style="width: 132px; height: 88px;" src="../image/cart/Frame 142.png" alt="">
-              <div class="table_td1-column">
-                <div><strong>Play game</strong></div>
-               <div>Color: Black</div>
-               <div>Size: 30</div>
-              </div>
-            </td>
-            <td class="table_td1-price">$ 11,70</td>
-            <td class="table_td1-quantity">
-              <button>-</button>
-              <input type="button" value="1">
-              <button>+</button>
-            </td>
-            <td class="table_td1-price">$ 11,70</td>
-            <td><img src="../image/cart/close-circle.svg" alt=""></td>
-          </tr>
-          <tr>
-            <td>
-              <button class="table_buttons1">Continue shopping</button>
-            </td>
-            <td>
-              <button class="table_buttons2">Update cart</button>
-            </td>
-            <td>
-              <button class="table_buttons3">Clear cart</button>
-            </td>
-        
-          </tr>
-        </table>
-      </div>
-      <div class="main-section_right">
-        <table class="table-right">
-          <tr class="table-right_tr">
-            <th>Cart total</th>
-          </tr>
-          <tr class="table-right_td1">
-            <td>Subtotal</td>
-            <td>$ 23,20</td>
-          </tr>
-          <tr>
-          <td><div>
-            Enter coupon code
-          </div>
-        <b>Apply</b></td>
-        </tr>
-        </table>
-      </div>
+          </table>
+        </div>
       </div>
     </div>
-
-  
   </body>
 </html>

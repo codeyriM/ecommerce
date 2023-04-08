@@ -156,7 +156,6 @@
 .main .main-inner .filter {
   width: 20%;
   background-color: blue;
-  height: 300px;
 }
 @media (max-width: 800px) {
   .main .main-inner .filter {
@@ -165,7 +164,6 @@
 }
 .main .main-inner .items {
   width: 80%;
-  background-color: red;
   height: auto;
   display: flex;
   flex-wrap: wrap;

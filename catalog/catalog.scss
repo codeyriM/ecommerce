@@ -162,14 +162,12 @@
     .filter {
       width: 20%;
       background-color: blue;
-      height: 300px;
       @media(max-width: 800px){
         width: 100%;
       }
     }
     .items {
       width: 80%;
-      background-color: red;
       height: auto;
       display: flex;
       flex-wrap: wrap;
